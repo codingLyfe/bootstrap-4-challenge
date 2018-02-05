@@ -26,42 +26,48 @@
 
 
 	<body>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-toggleable-md navbar-light bg-light border rounded my-3">
+				<h1 class="navbar-brand">Bootstrap</h1>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link" href="#">Link 1</a>
+						<a class="nav-item nav-link" href="#">Link 2</a>
+						<a class="nav-item nav-link" href="#">Link 3</a>
+						<a class="nav-item nav-link" href="#">Link 4</a>
+					</div>
+				</div>
+			</nav>
 
-		<aside class="container">
-			<h2>Bootstrap 4 Challenge</h2>
-			<ul>
-				<li>[link 1]</li>
-				<li>[link 2]</li>
-				<li>[link 3]</li>
-				<li>[link 4]</li>
-			</ul>
-		</aside>
 
-
-		<div class="jumbotron my-5 mx-5 rounded">
-			<h1>Hello, Bootstrap!</h1>
-			<p>Today I will be trying to figure out how to make an html page look like the example provided by Rochelle
-				Lewis by integrating bootstrap 4. ("rm -rf").</p>
-			<p class="lead">
-				<a class="btn btn-primary" href="#" role="button">Learn more</a>
-			</p>
+			<div class="jumbotron my-5 mx-5 rounded">
+				<h1>Hello, Bootstrap!</h1>
+				<p>Today I will be trying to figure out how to make an html page look like the example provided by Rochelle
+					Lewis by integrating bootstrap 4. ("rm -rf").</p>
+					<p class="lead">
+					<a class="btn btn-primary" href="#" role="button">Learn more</a>
+				</p>
+			</div>
 		</div>
-
 
 
 
 			<div class="jumbotron rounded-0">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-4 col-md-12 text-center">
+						<div class="col-lg-4 col-md-4 text-center">
 							<img src="images/bootstrap-img.png" alt="bootstrap image" class="img-fluid">
 						</div>
-						<div clas="col-lg-8 col-md-12">
+						<div class="col-lg-8 col-md-12">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
 							et	dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris commodo quis. Malesuada fames ac
 							turpis egestas sed. Aliquam id diam maecenas ultricies mi eget. Faucibus vitae aliquet nec ullamcorper sit
 							amet risus. Lacus luctus accumsan tortor posuere ac. Odio morbi quis commodo odio aenean sed adipiscing
-							diam donec. Mattis aliquam faucibus purus in massa. Sed euismod nisi porta lorem mollis. Mauris
+								diam donec. Mattis aliquam faucibus purus in massa.</p>
+							<p>Sed euismod nisi porta lorem mollis. Mauris
 							pellentesque pulvinar pellentesque habitant morbi tristique senectus. Amet massa vitae tortor condimentum
 							lacinia. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Sagittis aliquam malesuada bibendum
 							arcu vitae elementum curabitur. Turpis cursus in hac habitasse platea dictumst quisque. Montes nascetur
@@ -78,7 +84,7 @@
 				<div class="row">
 					<div class="card border-0 col-lg-3 col-md-6 col-xs-6 text-center">
 						<img class="card-img-top rounded-circle m-2" src="images/color-blast-ione-hedges.jpg" alt="color blast image">
-						<div class="card-block bg-light border rounded m-2 p-2">
+						<div class="card-block bg-light border rounded m-2">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris commodo quis. Malesuada
 							fames ac turpis egestas sed. Aliquam id diam maecenas ultricies mi eget</p>
@@ -87,7 +93,7 @@
 
 					<div class="card border-0 col-lg-3 col-md-6 col-xs-6 text-center">
 						<img class="card-img-top rounded-circle m-2" src="images/color-blast-ione-hedges.jpg" alt="color blast image">
-						<div class="card-block bg-light border rounded m-2 p-2">
+						<div class="card-block bg-light border rounded m-2">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 								labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris commodo quis. Malesuada
 								fames ac turpis egestas sed. Aliquam id diam maecenas ultricies mi eget</p>
@@ -96,7 +102,7 @@
 
 					<div class="card border-0 col-lg-3 col-md-6 col-xs-6 text-center">
 						<img class="card-img-top rounded-circle m-2" src="images/color-blast-ione-hedges.jpg" alt="color blast image">
-						<div class="card-block bg-light border rounded m-2 p-2">
+						<div class="card-block bg-light border rounded m-2">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 								labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris commodo quis. Malesuada
 								fames ac turpis egestas sed. Aliquam id diam maecenas ultricies mi eget</p>
@@ -105,7 +111,7 @@
 
 					<div class="card border-0 col-lg-3 col-md-6 col-xs-6 text-center">
 						<img class="card-img-top rounded-circle m-2" src="images/color-blast-ione-hedges.jpg" alt="color blast image">
-						<div class="card-block bg-light border rounded m-2 p-2">
+						<div class="card-block bg-light border rounded m-2">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 								labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris commodo quis. Malesuada
 								fames ac turpis egestas sed. Aliquam id diam maecenas ultricies mi eget</p>
@@ -114,8 +120,9 @@
 				</div>
 			</div>
 
-		<footer class="sfooter" class="sfooter-content">
-			<p>This is a footer! Copyright....IDK!</p>
-		</footer>
+
+
+	<!-- add footer -->
+
 	</body>
 </html>
