@@ -58,7 +58,7 @@
 			<div class="jumbotron rounded-0">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-4 col-md-4 text-center">
+						<div class="col-lg-4 col-md-12 text-center">
 							<img src="images/bootstrap-img.png" alt="bootstrap image" class="img-fluid">
 						</div>
 						<div class="col-lg-8 col-md-12">
@@ -120,9 +120,10 @@
 				</div>
 			</div>
 
-
-
 	<!-- add footer -->
+		<div class="card-footer text-center bg-dark text-white mt-2">
+			<p>This is the end of the page....there were some bugs but in the end we got it!</p>
+		</div>
 
 	</body>
 </html>
